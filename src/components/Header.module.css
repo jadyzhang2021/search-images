@@ -1,0 +1,48 @@
+div {
+  width: 100%;
+  text-align: center;
+  font-size: 27px;
+}
+h1 {
+  font-family: "Lobster", "Josefin Sans", Helvetica, Arial, sans-serif;
+  margin-bottom: 10px;
+}
+input {
+  color: grey;
+  font-size: 15px;
+  width: 450px;
+  height: 40px;
+  border-top-left-radius: 3px;
+  background-color: #edeff0;
+  padding: 10px 15px;
+  border-right: none;
+  border: 3px solid #d7dbdf;
+}
+link {
+  cursor: pointer;
+  border: 3px solid #d7dbdf;
+  height: 40px;
+  border-top-right-radius: 3px;
+  background-color: #efefef4d;
+  padding: 0px 15px;
+  border: none;
+}
+img {
+  display: block;
+  width: 31px;
+  height: 31px;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  width: 100vw;
+  height: 40px;
+}
+.active {
+  background-color: #051c33;
+  cursor: pointer;
+}
+.inputactive {
+  background-color: #e8f0fe;
+}

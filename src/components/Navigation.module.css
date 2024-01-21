@@ -1,0 +1,30 @@
+ul {
+  list-style-type: none;
+  display: flex;
+  max-width: 960px;
+  min-height: 46px;
+  margin: 30px 0;
+  padding: 0;
+}
+
+li {
+  margin: 0 19px;
+}
+.link {
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 22px;
+  font-size: 12px;
+  color: white;
+  text-decoration: none;
+  background-color: #051c33;
+  padding: 5px;
+  border-radius: 3px;
+}
+.nabar {
+  display: flex;
+  justify-content: center;
+}

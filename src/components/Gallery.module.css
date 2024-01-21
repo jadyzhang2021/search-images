@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.picContainer {
+  max-width: 960px;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 3px 40px;
+}
+
+.title {
+  font-family: sans-serif;
+}
+.image {
+  width: 200px;
+  height: 153px;
+}
+li {
+  margin: 12px 10px;
+}
